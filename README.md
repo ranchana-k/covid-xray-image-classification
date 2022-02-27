@@ -10,6 +10,7 @@ This project is to learn applying deep learning using a CNN model to multiclass 
 <img src="/images/model_loss.png" width="400" height="300">  <img src="images/model_acc.png" width="400" height="300">
 - From the classification report, `Covid` and `Normal` cases has almost the same f1-score at about 90%. Meanwhile, `Viral Pneumonia` case has f1-score at 97%
 <img src="/images/covid-report.png" width="500">                                   
+
 - The confusion matrix showed that the model classified well on Viral Pneumonia cases in accordance with classification report. There were still many normal cases were mistaken to COVID cases or vice versa.
 <img src="/images/covid-cm.png" width="500">
 
