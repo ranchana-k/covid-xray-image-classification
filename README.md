@@ -5,8 +5,8 @@ Classify X-ray images into three classes: Covid, Normal, and Viral Pneumonia usi
 This project is to learn applying deep learning using a CNN model to multiclass classification.
 
 # Summary
-![Model Loss](/images/model_loss.png = 450x300)
-![Model Accuracy](/images/model_acc.png = 450x300)
+![Model Loss](/images/model_loss.png =450x300)
+![Model Accuracy](/images/model_acc.png =450x300)
 ![Classification Report](/images/covid-report.png)
 - The model got train accuracy and test accuracy at 95% and 90%, in turn. The model was still far from human level performance or Bayes Error. It can be improved by training with more data or improving the neuron network.
 ![Confusion Matrix](/images/covid-cm.png)
