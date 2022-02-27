@@ -6,11 +6,12 @@ This project is to learn applying deep learning using a CNN model to multiclass 
 
 # Summary
 - Train and validation loss decreased during training to 0.2089 and 0.2065, respectively. On the other hand, train and validation accuracy increased to 92.10% and 92.69% in turn. The model still has high bias and can be improved by training with more data or improving the neuron network.
-<img src="/images/model_loss.png" width="400" height="250"> <img src="images/model_acc.png" width="400" height="250">
+
+<img src="/images/model_loss.png" width="400" height="300"> <img src="images/model_acc.png" width="400" height="250">
 - From the classification report, `Covid` and `Normal` cases has almost the same f1-score at about 90%. Meanwhile, `Viral Pneumonia` case has f1-score at 97%
 <img src="/images/covid-report.png" width="600">                                   
 - The confusion matrix showed that the model classified well on Viral Pneumonia cases in accordance with classification report. There were still many normal cases were mistaken to COVID cases or vice versa.
-<img src="/images/covid-cm.png" width="600" height="600">
+<img src="/images/covid-cm.png" width="400" height="400">
 
 # Licenses / Acknowledgements / References
 Data Resource: https://www.kaggle.com/tawsifurrahman/covid19-radiography-database/code
