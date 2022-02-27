@@ -5,7 +5,7 @@ Classify X-ray images into three classes: Covid, Normal, and Viral Pneumonia usi
 This project is to learn applying deep learning using a CNN model to multiclass classification.
 
 # Summary
-- Train and validation loss decreased during training to 0.2089 and 0.2065, respectively. On the other hand, train and validation accuracy increased to 92.10% and 92.69% in turn. The model still has high bias and can be improved by training with more data or improving the neuron network.
+- Train and validation loss decreased during training. For the highest validation accuracy of 92.69%, train accuracy was and 92.10% The model still has high bias and can be improved by training with more data, training longer, or improving the neuron network.
 
 <img src="/images/model_loss.png" width="400" height="300">  <img src="images/model_acc.png" width="400" height="300">
 - From the classification report, `Covid` and `Normal` cases has almost the same f1-score at about 90%. Meanwhile, `Viral Pneumonia` case has f1-score at 97%
